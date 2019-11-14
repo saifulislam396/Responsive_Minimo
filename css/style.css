@@ -1,0 +1,221 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body {
+    margin: 0;
+    padding: 0;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+/*--header start--*/
+header {
+    padding: 40px 0 80px 0;
+}
+
+.img-custom {}
+
+.menu ul li {
+    padding-left: 70px;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.menu ul li a:hover {
+    color: #000;
+}
+
+/*--header start--*/
+/*--Banner start--*/
+
+/*--Banner end--*/
+/*--getaway start--*/
+.getway {
+    padding: 50px 0;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+    /* border: 1px solid;*/
+}
+
+.content {}
+
+.content h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 1.1px;
+    margin-bottom: 45px;
+}
+
+.common-p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 26px 0 10px 0;
+    color: #b4ad9e;
+    text-transform: uppercase;
+
+}
+
+/*--getaway end--*/
+/*--blog start--*/
+.blog {
+     padding: 50px 0 20px 0;;
+}
+
+.blog-content .single1 {
+    width: 47%;
+    float: left;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.single1:nth-child(even) {
+    margin-left: 6%;
+}
+
+.single1 img {
+    width: 100%;
+}
+
+/*--blog end--*/
+/*--signup from start--*/
+
+.signup_from {
+    width: 100%;
+    height: 280px;
+    background-color: #F0F0F0;
+}
+
+.signup_from {
+    padding: 50px 0;
+}
+
+.signup_wrapper {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup h1 {
+    font-size: 30px;
+    margin: 33px 0 20px 0;
+}
+
+h1 {
+    color: #7a7575;
+}
+
+.form {
+    width: 350px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    padding: 0 40px 0 0;
+}
+
+.form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+button {}
+
+.form button {
+    background: transparent;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    right: 1px;
+    margin-left: 5px;
+}
+
+/*--signup from end--*/
+/*--button start--*/
+.button {
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button button {
+    font-size: 20px;
+    color: #626262;
+    padding: 25px 50px;
+    transition: .4s;
+}
+.button button:hover{
+    color: black;
+    background: white;
+    border: 1px dashed #626262;
+}
+
+/*--button start--*/
+/*footer start*/
+.footer{
+    background: #cccccc;
+}
+.fast-grp{
+        padding: 30px 0 10px 0;
+}
+.fast-grp ul li{
+        padding: 0 30px;
+}
+.fast-grp ul li a{
+    text-decoration: none;
+    color: #767673;
+    transition: .4s;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+.fast-grp ul li a:hover{
+    color: white;
+}
+.sec-grp{
+        padding: 30px 0 10px 0;
+}
+.sec-grp ul {}
+.sec-grp ul li{
+    padding: 0 10px;
+  
+}
+.sec-grp ul li a{
+    color:  #767673;
+      transition: .4s;
+}
+.sec-grp ul li a:hover{
+    color:  white;
+}
+/*footer end*/

@@ -1,0 +1,142 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*getway start*/
+    h1 {
+        font-size: 21px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .getway {
+        padding: 10px 0 !important;
+    }
+
+    .content p {
+        margin-bottom: 0px !important;
+        padding: 30px 0 0 0 !important;
+    }
+
+    .content h1 {
+        margin-top: 7px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .common-p {
+        font-size: 15px !important;
+        padding: 2px 0 10px 0 !important;
+    }
+
+    /*getway end*/
+    /*signup button*/
+    .signup_wrapper {
+        width: 100% !important;
+    }
+
+    .signup h1 {
+        font-size: 19px !important;
+
+        font-size: 24px !important;
+    }
+
+    .form {
+        width: 270px !important;
+        right: 46px !important;
+    }
+
+    .form input {
+        padding-right: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .button {
+        height: 120px !important;
+        padding-top: 7px !important;
+    }
+
+    .button button {
+        font-size: 16px !important;
+        padding: 15px 30px !important;
+    }
+
+    /*signup button*/
+    /*footer*/
+    .sec-grp {
+        padding: 0 0 0 0 !important;
+    }
+
+    .sec-grp ul {
+        float: left !important;
+    }
+
+    .sec-grp ul li {
+        padding: 40px 0 0 0 !important;
+    }
+
+    /*footer*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*getway start*/
+    .content p {
+        margin-bottom: 15px !important;
+    }
+
+    .getway {
+        padding: 2px 0 !important;
+    }
+
+    /*getway end*/
+    /*signup button*/
+
+    .button {
+        height: 138px !important;
+        padding-top: 0px !important;
+    }
+
+    .button button {
+        font-size: 16px !important;
+        padding: 15px 35px !important;
+    }
+
+    /*signup button*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 26px;
+    }
+    /*getway start*/
+    .getway {
+        padding: 2px 0 !important;
+    }
+
+    /*getway end*/
+    /*signup button*/
+    .button {
+        height: 170px !important;
+    }
+
+    /*signup button*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        color: black;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    h1 {
+        color: green;
+    }
+
+    pink
+}
